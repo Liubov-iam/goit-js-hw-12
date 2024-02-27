@@ -15,24 +15,22 @@
       <form id="search-form" class="search-form">
         <input type="text" name="search" id="search-input" required placeholder="Search images...">
         <button type="submit">Search</button>
+        <span class="loader">Loading more images, please wait...</span>
       </form>
-      
-      <span class="loader">Loading more images, please wait...</span>
-</section>
 
-    
+    </section>
+
     <div class="gallery"></div>
-  </div>
-  <div class="container-loadmore">
-<button type="button" class="load-more" style="display: none;">Load more</button>
-  </div>
-<div class="loader2">Loading more images, please wait...</div>
-<div class="end-message" style="display: none;">
-  We're sorry, but you've reached the end of search results.
-</div>
+
+    <div class="container-loadmore">
+      <button type="button" class="load-more" style="display: none;">Load more</button>
+      <span class="loader">Loading more images, please wait...</span>
+      <div class="end-message" style="display: none;">
+        We're sorry, but you've reached the end of search results.
+      </div>
+    </div>
 
   <script type="module" src="./main.js"></script>
 </body>
-
 </html>
 

@@ -72,6 +72,7 @@ form {
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: block;
 }
 
 
@@ -139,19 +140,11 @@ form {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 32px;
+  
 }
 
-.loader2 {
-  text-align: center;
-  padding-top: 32px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 
 .loader,
-.loader2,
 .end-message {
   display: none;
 }
